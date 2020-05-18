@@ -7,7 +7,7 @@ In this project there are 4 modules:
 * Passenger Module
 
 ## Here is the output screen
-Output Screens: 
+<b>Output Screens: </b>
 ![alt text](https://github.com/thejunaidiqbal/Bus-Management-System/blob/master/1Outputs%20(10).png "Output Screen of Passenger Side - Reservation Section")
 </br>
 ![alt text](https://github.com/thejunaidiqbal/Bus-Management-System/blob/master/Outputs%20(11).png "Output Screen of Main Menue")
