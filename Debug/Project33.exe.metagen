@@ -1,0 +1,334 @@
+  Project33.busTiming.resources - Embedded, ContainedInManifestFile, 
+  Project33.driver.resources - Embedded, ContainedInManifestFile, 
+  Project33.fare.resources - Embedded, ContainedInManifestFile, 
+  Project33.helpAndFeedback.resources - Embedded, ContainedInManifestFile, 
+  Project33.ManagerDriver.resources - Embedded, ContainedInManifestFile, 
+  Project33.managerPassenger.resources - Embedded, ContainedInManifestFile, 
+  Project33.managerTicketIssuer.resources - Embedded, ContainedInManifestFile, 
+  Project33.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Project33.MyForm1.resources - Embedded, ContainedInManifestFile, 
+  Project33.passenger.resources - Embedded, ContainedInManifestFile, 
+  Project33.ticketIssuer.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project33, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project33.busTiming: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project33.driver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.Label label4 : Public
+    System.Windows.Forms.TextBox textBox12 : Public
+    System.Windows.Forms.TextBox textBox11 : Public
+    System.Windows.Forms.TextBox textBox10 : Public
+    System.Windows.Forms.Label label18 : Public
+    System.Windows.Forms.Label label19 : Public
+    System.Windows.Forms.Panel panel1 : Public
+    System.Windows.Forms.Label label24 : Public
+    System.Windows.Forms.Label label23 : Public
+    System.Windows.Forms.Label label26 : Public
+    System.Windows.Forms.Label label27 : Public
+  Methods:
+    textBox1_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox2_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    label4_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox10_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox11_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox12_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    label18_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    label19_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    label23_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    label24_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    label26_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    panel1_Paint(Object, PaintEventArgs): PrivateScope, Public, HideBySig
+    label27_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project33.fare: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBox3 : Public
+    System.Windows.Forms.TextBox textBox4 : Public
+    System.Windows.Forms.TextBox textBox7 : Public
+    System.Windows.Forms.Label label13 : Public
+    System.Windows.Forms.Label label14 : Public
+  Methods:
+    textBox3_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox4_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox7_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    label13_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    label14_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project33.helpAndFeedback: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBox3 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+  Methods:
+    textBox1_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox3_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox2_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project33.ManagerDriver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel panel2 : Public
+    System.Windows.Forms.Button button9 : Public
+    System.Windows.Forms.TextBox textBox15 : Public
+    System.Windows.Forms.TextBox textBox14 : Public
+    System.Windows.Forms.Button backFromManager : Public
+    System.Windows.Forms.Label label1 : Public
+  Methods:
+    textBox14_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox15_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    button9_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    label1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project33.managerPassenger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.TextBox textBox3 : Public
+    System.Windows.Forms.TextBox textBox4 : Public
+  Methods:
+    textBox1_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox4_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox2_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox3_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project33.managerTicketIssuer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel panel1 : Public
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.Label label4 : Public
+    System.Windows.Forms.TextBox textBox8 : Public
+    System.Windows.Forms.TextBox textBox7 : Public
+    System.Windows.Forms.TextBox textBox6 : Public
+    System.Windows.Forms.TextBox textBox5 : Public
+    System.Windows.Forms.TextBox textBox4 : Public
+    System.Windows.Forms.TextBox textBox3 : Public
+    System.Windows.Forms.PictureBox pictureBox3 : Public
+    System.Windows.Forms.OpenFileDialog openFileDialog1 : Public
+    System.Windows.Forms.TextBox textBox9 : Public
+    System.Windows.Forms.PictureBox pictureBox8 : Public
+    System.Windows.Forms.TextBox textBox10 : Public
+  Methods:
+    textBox1_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox2_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    button1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    label4_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox3_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox3_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox4_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox5_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox6_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox7_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox8_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    panel1_Paint(Object, PaintEventArgs): PrivateScope, Public, HideBySig
+    openFileDialog1_FileOk(Object, CancelEventArgs): PrivateScope, Public, HideBySig
+    textBox9_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox8_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox10_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project33.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project33.ticketIssuer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.PictureBox pBox : Public
+    System.Windows.Forms.PictureBox[] pBox1 : Public
+    System.Windows.Forms.RadioButton radioButton7 : Public
+    System.Windows.Forms.RadioButton radioButton6 : Public
+    System.Windows.Forms.RadioButton radioButton5 : Public
+    System.Windows.Forms.TextBox textBox18 : Public
+    System.Windows.Forms.TextBox textBox17 : Public
+    System.Windows.Forms.TextBox textBox16 : Public
+    System.Windows.Forms.TextBox textBox15 : Public
+    System.Windows.Forms.ComboBox comboBox1 : Public
+    System.Windows.Forms.TextBox textBox14 : Public
+    System.Windows.Forms.TextBox textBox13 : Public
+    System.Windows.Forms.TextBox textBox12 : Public
+    System.Windows.Forms.Button button19 : Public
+    System.Windows.Forms.Label label26 : Public
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.OpenFileDialog openFileDialog1 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.PictureBox pictureBox1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.Label label3 : Public
+  Methods:
+    textBox12_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox13_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox15_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    comboBox1_SelectedIndexChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox14_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox16_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox17_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox18_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    button19_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    button1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    radioButton5_CheckedChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    radioButton6_CheckedChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    radioButton7_CheckedChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    label1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    openFileDialog1_FileOk(Object, CancelEventArgs): PrivateScope, Public, HideBySig
+    textBox1_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox2_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project33.passenger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel panel4 : Public
+    System.Windows.Forms.TextBox textBox7 : Public
+    System.Windows.Forms.Panel panel5 : Public
+    System.Windows.Forms.TextBox textBox8 : Public
+    System.Windows.Forms.Label label63 : Public
+    System.Windows.Forms.PictureBox pictureBox65 : Public
+    System.Windows.Forms.CheckBox checkBox2 : Public
+    System.Windows.Forms.CheckBox checkBox1 : Public
+    System.Windows.Forms.TextBox textBox6 : Public
+    System.Windows.Forms.TextBox textBox5 : Public
+    System.Windows.Forms.TextBox textBox4 : Public
+    System.Windows.Forms.TextBox textBox3 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.Label label11 : Public
+    System.Windows.Forms.Label label16 : Public
+    System.Windows.Forms.PictureBox pictureBox53 : Public
+    System.Windows.Forms.PictureBox pictureBox54 : Public
+    System.Windows.Forms.PictureBox pictureBox52 : Public
+    System.Windows.Forms.PictureBox pictureBox49 : Public
+    System.Windows.Forms.PictureBox pictureBox48 : Public
+    System.Windows.Forms.PictureBox pictureBox45 : Public
+    System.Windows.Forms.PictureBox pictureBox44 : Public
+    System.Windows.Forms.PictureBox pictureBox41 : Public
+    System.Windows.Forms.PictureBox pictureBox40 : Public
+    System.Windows.Forms.PictureBox pictureBox37 : Public
+    System.Windows.Forms.PictureBox pictureBox36 : Public
+    System.Windows.Forms.PictureBox pictureBox33 : Public
+    System.Windows.Forms.PictureBox pictureBox51 : Public
+    System.Windows.Forms.PictureBox pictureBox32 : Public
+    System.Windows.Forms.PictureBox pictureBox47 : Public
+    System.Windows.Forms.PictureBox pictureBox29 : Public
+    System.Windows.Forms.PictureBox pictureBox43 : Public
+    System.Windows.Forms.PictureBox pictureBox28 : Public
+    System.Windows.Forms.PictureBox pictureBox39 : Public
+    System.Windows.Forms.PictureBox pictureBox25 : Public
+    System.Windows.Forms.PictureBox pictureBox35 : Public
+    System.Windows.Forms.PictureBox pictureBox24 : Public
+    System.Windows.Forms.PictureBox pictureBox50 : Public
+    System.Windows.Forms.PictureBox pictureBox31 : Public
+    System.Windows.Forms.PictureBox pictureBox46 : Public
+    System.Windows.Forms.PictureBox pictureBox21 : Public
+    System.Windows.Forms.PictureBox pictureBox42 : Public
+    System.Windows.Forms.PictureBox pictureBox27 : Public
+    System.Windows.Forms.PictureBox pictureBox38 : Public
+    System.Windows.Forms.PictureBox pictureBox20 : Public
+    System.Windows.Forms.PictureBox pictureBox34 : Public
+    System.Windows.Forms.PictureBox pictureBox23 : Public
+    System.Windows.Forms.PictureBox pictureBox30 : Public
+    System.Windows.Forms.PictureBox pictureBox17 : Public
+    System.Windows.Forms.PictureBox pictureBox26 : Public
+    System.Windows.Forms.PictureBox pictureBox19 : Public
+    System.Windows.Forms.PictureBox pictureBox22 : Public
+    System.Windows.Forms.PictureBox pictureBox16 : Public
+    System.Windows.Forms.PictureBox pictureBox18 : Public
+    System.Windows.Forms.PictureBox pictureBox15 : Public
+    System.Windows.Forms.PictureBox pictureBox14 : Public
+  Methods:
+    label63_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox65_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox1_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox2_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox3_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox4_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox5_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox6_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    checkBox1_CheckedChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    checkBox2_CheckedChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    label11_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox14_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox16_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox17_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox18_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox19_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox20_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox21_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox22_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox23_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox24_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox25_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox26_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox27_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox28_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox29_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox30_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox31_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox32_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox33_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox34_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox35_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox36_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox37_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox38_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox39_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox40_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox41_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox42_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox43_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox44_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox45_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox46_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox47_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox48_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox49_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox50_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox51_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox54_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox52_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox53_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox7_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    panel4_Paint(Object, PaintEventArgs): PrivateScope, Public, HideBySig
+    panel5_Paint(Object, PaintEventArgs): PrivateScope, Public, HideBySig
+    textBox8_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox8_TextChanged_1(Object, EventArgs): PrivateScope, Public, HideBySig
+    panel5_Paint_1(Object, PaintEventArgs): PrivateScope, Public, HideBySig
+Class Project33.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel panel2 : Public
+    System.Windows.Forms.TextBox textBox4 : Public
+    System.Windows.Forms.PictureBox pictureBox7 : Public
+    System.Windows.Forms.TextBox textBox19 : Public
+  Methods:
+    panel2_Paint(Object, PaintEventArgs): PrivateScope, Public, HideBySig
+    textBox4_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    pictureBox7_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox19_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig

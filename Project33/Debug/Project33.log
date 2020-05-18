@@ -1,0 +1,37 @@
+﻿Build started 5/20/2017 7:04:56 PM.
+     1>Project "B:\Project33\Project33\Project33.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Messaging.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib busTiming.cpp driver.cpp fare.cpp helpAndFeedback.cpp ManagerDriver.cpp managerPassenger.cpp managerTicketIssuer.cpp MyForm.cpp MyForm1.cpp passenger.cpp Source1.cpp ticketIssuer.cpp
+         busTiming.cpp
+         driver.cpp
+         fare.cpp
+         helpAndFeedback.cpp
+         ManagerDriver.cpp
+         managerPassenger.cpp
+         managerTicketIssuer.cpp
+         MyForm.cpp
+         MyForm1.cpp
+         passenger.cpp
+         Source1.cpp
+         ticketIssuer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"B:\Project33\Debug\Project33.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Project33.busTiming.resources /ASSEMBLYRESOURCE:Debug\Project33.driver.resources /ASSEMBLYRESOURCE:Debug\Project33.fare.resources /ASSEMBLYRESOURCE:Debug\Project33.helpAndFeedback.resources /ASSEMBLYRESOURCE:Debug\Project33.ManagerDriver.resources /ASSEMBLYRESOURCE:Debug\Project33.managerPassenger.resources /ASSEMBLYRESOURCE:Debug\Project33.managerTicketIssuer.resources /ASSEMBLYRESOURCE:Debug\Project33.MyForm.resources /ASSEMBLYRESOURCE:Debug\Project33.MyForm1.resources /ASSEMBLYRESOURCE:Debug\Project33.passenger.resources /ASSEMBLYRESOURCE:Debug\Project33.ticketIssuer.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"B:\Project33\Debug\Project33.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\busTiming.obj
+         Debug\driver.obj
+         Debug\fare.obj
+         Debug\helpAndFeedback.obj
+         Debug\ManagerDriver.obj
+         Debug\managerPassenger.obj
+         Debug\managerTicketIssuer.obj
+         Debug\MyForm.obj
+         Debug\MyForm1.obj
+         Debug\passenger.obj
+         Debug\Source1.obj
+         Debug\ticketIssuer.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Project33.vcxproj -> B:\Project33\Debug\Project33.exe
+     1>Done Building Project "B:\Project33\Project33\Project33.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.22
