@@ -1,4 +1,4 @@
-# Bus Management System
+# Bus Management System:
 In the bus management system, I used C++ language and also used window form. I shared this code because students work on C++ language but if they work on Window Form, it prefer C#, because window form in C++ is too difficult and source does not found on internet. So thats why students prefer C# because window form in C# is easy but it could not clear the concepts when they move on C#. So I shared this project and Students can get help from this project.
 In this project there are 4 modules:
 * Manager/Admin Side
